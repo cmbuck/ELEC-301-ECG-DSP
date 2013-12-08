@@ -1,5 +1,5 @@
 %Extract EKG files to vector
-function ELEC301projEKGextract
+function [data_array,names]=ELEC301projEKGextract()
 
 
 [data_array,names]=EKGfiles();
