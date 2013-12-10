@@ -1,3 +1,5 @@
+%This code is adapted from Kasturi Joshi and Edward Labrador's code
+%published in Early Myocardial Infarction Detection, May 2009.
 function [T_peak_index,T_peak,T_peak_t] = TPeakDetect(R_index,J_index,H_R,sfreq,D)
 
 D = transpose(D);

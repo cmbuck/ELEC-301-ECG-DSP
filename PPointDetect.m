@@ -1,3 +1,5 @@
+%This code is adapted from Kasturi Joshi and Edward Labrador's code
+%published in Early Myocardial Infarction Detection, May 2009.
 function [P_index,P_amp,P_t] = PPointDetect(K_index,H_R,sfreq,D)
 
 D = transpose(D);

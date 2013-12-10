@@ -1,3 +1,5 @@
+%This code is adapted from Kasturi Joshi and Edward Labrador's code
+%published in Early Myocardial Infarction Detection, May 2009.
 function ISO = IsoelecLineCalc(P_index,K_index)
 
 K_len = length(K_index);

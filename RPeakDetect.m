@@ -1,3 +1,5 @@
+%This code is adapted from Kasturi Joshi and Edward Labrador's code
+%published in Early Myocardial Infarction Detection, May 2009.
 function [R_index, R_t, R_amp] = RPeakDetect(sfreq,D)
 
 D = transpose(D);

@@ -1,3 +1,5 @@
+%This code is adapted from Kasturi Joshi and Edward Labrador's code
+%published in Early Myocardial Infarction Detection, May 2009.
 function ST = STsegCalc(J_index,TP_index)
 
 a = length(J_index);

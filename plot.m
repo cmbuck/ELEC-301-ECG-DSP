@@ -1,3 +1,5 @@
+%This code is adapted from Kasturi Joshi and Edward Labrador's code
+%published in Early Myocardial Infarction Detection, May 2009.
 function plot(sfreq,D)
 
 tt = 1/sfreq:1/sfreq:ceil(len/sfreq);
