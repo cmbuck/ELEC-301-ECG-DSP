@@ -1,5 +1,5 @@
 %Extract EKG files to vector
-function ELEC301projEKGextract
+function [data_array,names]=ELEC301projEKGextract()
 
 
 [data_array,names]=EKGfiles();
@@ -24,7 +24,7 @@ names=cell(1,length(dirlisting)-2);
 
 for i=1:length(data_array)
     y=load(strcat(dirname,'/',dirlisting(i+2).name));
-    dat=y.val(1:end); %get the values in y into a vector dat
+    dat=y.val; %get the values in y into a vector dat
     data_array{i}=dat;
     names{i}=dirlisting(i+2).name;
 end
